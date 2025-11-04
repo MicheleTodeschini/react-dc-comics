@@ -19,5 +19,26 @@ header {
 
   .navbar-nav {
     display: flex;
+    gap: 2px;
+  }
+
+  .nav-link:hover {
+  color: #007bff;
+}
+}
+
+main {
+  background-color: black;
+
+
+  .top {
+    color: white;
+    padding-top: 3rem;
+
+  height: 8rem;
+
+  .bi {
+    color: white;
+  }
   }
 }
