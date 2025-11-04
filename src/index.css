@@ -28,7 +28,14 @@ header {
 }
 
 main {
-  background-color: black;
+  
+  .bg-black {
+    background-color: black;
+  }
+
+  .bg-blue {
+    background-color: #0282f9;
+  }
 
 
   .top {
@@ -41,4 +48,13 @@ main {
     color: white;
   }
   }
+
+.bottom {
+  color: white;
+   padding-top: 3rem;
+
+  height: 8rem;
+
+}
+
 }
