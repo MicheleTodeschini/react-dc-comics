@@ -63,3 +63,15 @@ main {
 }
 
 }
+
+footer {
+
+
+
+
+
+  .bg-bottom-footer {
+    background-color: #303030;
+    color: white;
+  }
+}
