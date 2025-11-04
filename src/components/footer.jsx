@@ -1,3 +1,10 @@
+import Facebook from "/img/footer-facebook.png?url"
+import Twitter from "/img/footer-twitter.png?url"
+import Youtube from "/img/footer-youtube.png?url"
+import Pinterest from "/img/footer-pinterest.png?url"
+import Periscope from "/img/footer-periscope.png?url"
+
+
 export default function Footer() {
     return(
         <footer>
@@ -96,7 +103,21 @@ export default function Footer() {
          </div>
          <div className="bg-bottom-footer">
             <section className="container">
-<p>prova</p>
+                <section className="end-left">
+               <button className="btn">
+                <a>SIGN-UP NOW</a>
+               </button>
+               </section>
+               <section className="end-right">
+                  <p className="follow">FOLLOW US</p>
+                  <img src={Facebook}></img>
+                  <img src={Twitter}></img>
+                  <img src={Youtube}></img>
+                  <img src={Pinterest}></img>
+                  <img src={Periscope}></img>
+
+
+               </section>
             </section>
          </div>
         </footer>

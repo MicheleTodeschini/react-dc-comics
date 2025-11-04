@@ -77,11 +77,18 @@ footer {
   .bg-bottom-footer {
     background-color: #303030;
     color: white;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   .container {
     margin-bottom: 0;
     display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
     .list-left{
       padding-bottom: 2rem;
@@ -99,5 +106,21 @@ footer {
     a {
       color: gray;
     }
+  }
+
+  .btn {
+    color: white;
+    border-color: #0282f9;
+  }
+
+  .follow {
+    color:  #0282f9;
+  }
+
+  .end-right {
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-evenly;
   }
 }
