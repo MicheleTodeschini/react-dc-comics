@@ -1,1 +1,23 @@
 @import url('bootstrap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  
+.container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+  .logo {
+    height: 50px;
+  }
+
+  .navbar-nav {
+    display: flex;
+  }
+}
