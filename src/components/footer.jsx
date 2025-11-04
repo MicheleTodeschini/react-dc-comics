@@ -3,6 +3,7 @@ import Twitter from "/img/footer-twitter.png?url"
 import Youtube from "/img/footer-youtube.png?url"
 import Pinterest from "/img/footer-pinterest.png?url"
 import Periscope from "/img/footer-periscope.png?url"
+import LogoRilievo from "/img/dc-logo-bg.png?url"
 
 
 export default function Footer() {
@@ -97,6 +98,10 @@ export default function Footer() {
                       <li className="list-unstyled ">
                         <a className="nav-link " aria-current="page" href="#">DC Power Visa</a>
                     </li>
+                </section>
+
+                <section className="logo-rilievo">
+                    <img src={LogoRilievo} alt="Logo DC" />
                 </section>
                 
             </section>

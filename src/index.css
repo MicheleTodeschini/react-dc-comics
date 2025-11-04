@@ -65,18 +65,34 @@ main {
 }
 
 footer {
-
+   position: absolute;
+   width: 100%;
 
   .bg-top-footer {
     background-image: url(/img/footer-bg.jpg);
     color: white;
+    width: 100%;
   }
 
+  .logo-rilievo {
+    position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.9; 
+  z-index: 0;
+  }
+.logo-rilievo img {
+  max-width: 500px; 
+  height: auto;
+}
 
 
   .bg-bottom-footer {
     background-color: #303030;
     color: white;
+    width: 100%;
+    
 
     .container {
       display: flex;
@@ -111,16 +127,18 @@ footer {
   .btn {
     color: white;
     border-color: #0282f9;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .follow {
     color:  #0282f9;
+    padding-top: 1rem;
   }
 
   .end-right {
     display: flex;
     align-items: center;
-    
-    justify-content: space-evenly;
+    gap: 1rem;
   }
 }
