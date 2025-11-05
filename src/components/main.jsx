@@ -176,7 +176,7 @@ export default function Main() {
             {
                 comics.map(comic => (
                     
-                    <div className="col-2" key={comic.id}>
+                    <div className="col-2  " key={comic.id}>
                         <div className="card">
                             <img className="card-img-top" src={comic.thumb} alt={comic.title} />
                             <div className="card-body">

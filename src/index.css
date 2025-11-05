@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
 @import url('bootstrap');
 
 * {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans";
 }
 
 header {
@@ -38,33 +40,44 @@ main {
     background-color: black;
     height: 500px;
   }
-  
+    .top {
+    padding-top: 2rem;
+  }
+
   .col-2 {
     display: flex;
     padding-bottom: 10rem;
+    height: 100px;
   }
 
   .card {
-    height: 100px;
+    height: 90px;
+    width: 120px;
     color: white;
     padding-bottom: 3rem;
   }
 
+  .card-img-top {
+    height: 80px;
+  }
 
+  .card-img-top img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+  }
+
+.card-body {
+  height: 10px;
+  margin-left: -15px;
+  
+}
   .bg-blue {
     background-color: #0282f9;
   }
 
 
-  .top {
-    color: white;
-    padding-top: 3rem;
-    height: 8rem;
 
-  .bi {
-    color: white;
-  }
-  }
 
 .bottom {
   color: white;
