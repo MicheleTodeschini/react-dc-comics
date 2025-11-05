@@ -189,7 +189,7 @@ export default function Main() {
             }
             </div>
             <div className="load">
-                <button>
+                <button className="button">
                     <a>LOAD MORE</a>
                 </button>
             </div>

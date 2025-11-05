@@ -75,6 +75,19 @@ main {
   text-transform: uppercase;
   
 }
+
+.load {
+  text-align: center;
+}
+
+.button {
+  color: white;
+  background-color: #007bff;
+  border-style: none;
+  width: 20%;
+  font-size: 12px;
+  font-weight: bold;
+}
   .bg-blue {
     background-color: #0282f9;
   }
