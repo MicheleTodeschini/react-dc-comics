@@ -38,7 +38,7 @@ main {
   
   .bg-black {
     background-color: black;
-    height: 500px;
+    height: 600px;
   }
     .top {
     padding-top: 2rem;
@@ -46,29 +46,29 @@ main {
 
   .col-2 {
     display: flex;
-    padding-bottom: 10rem;
+    padding-bottom: 16rem;
     height: 100px;
   }
 
   .card {
-    height: 90px;
     width: 120px;
     color: white;
-    padding-bottom: 3rem;
+    
   }
 
   .card-img-top {
-    height: 80px;
+    width: 120px;
+    aspect-ratio: 2/3;
+    object-fit: cover;
   }
 
   .card-img-top img {
       width: 100%;
       height: 100%;
-      object-fit: fill;
+      
   }
 
 .card-body {
-  height: 10px;
   margin-left: -15px;
   font-size: 11px;
   text-transform: uppercase;
