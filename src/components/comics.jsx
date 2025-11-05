@@ -1,3 +1,4 @@
+
 const comics = [
   {
     id: 1,
@@ -153,4 +154,9 @@ const comics = [
   },
 ];
 
-export default comics
+export default function comics() {
+    
+
+
+
+}

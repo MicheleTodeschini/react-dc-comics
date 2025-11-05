@@ -28,10 +28,28 @@ header {
 }
 
 main {
+
+  .jumbo {
+    height: 200px;
+    width: 100%;
+  }
   
   .bg-black {
     background-color: black;
+    height: 500px;
   }
+  
+  .col-2 {
+    display: flex;
+    padding-bottom: 10rem;
+  }
+
+  .card {
+    height: 100px;
+    color: white;
+    padding-bottom: 3rem;
+  }
+
 
   .bg-blue {
     background-color: #0282f9;
