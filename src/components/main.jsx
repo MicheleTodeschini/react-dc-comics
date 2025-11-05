@@ -188,6 +188,11 @@ export default function Main() {
                 ))
             }
             </div>
+            <div className="load">
+                <button>
+                    <a>LOAD MORE</a>
+                </button>
+            </div>
            </section>
            
           </div>
