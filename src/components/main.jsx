@@ -171,6 +171,9 @@ export default function Main() {
             </div>
 
             <div className="bg-black">
+                <div className="tag">
+                    <p className="tag-text">CURRENT SERIES</p>
+                </div>
            <section className="top container">
             <div className="row">
             {

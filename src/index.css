@@ -36,10 +36,27 @@ main {
     height: auto;
     max-height: 300px;
   }
+
+  .tag {
+    width: 100px;
+    background-color:  #007bff;
+    position: relative;
+    text-align: center;
+    margin-top: -20px; 
+    z-index: 999;
+    margin-left: 110px;
+  }
+
+  .tag-text {
+    color: white;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 10px;
+  }
   
   .bg-black {
     background-color: black;
-    height: 600px;
+    height: 650px;
   }
     .top {
     padding-top: 2rem;
