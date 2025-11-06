@@ -4,6 +4,7 @@ import Carte from "/img/buy-comics-subscriptions.png?url"
 import Gps from "/img/buy-comics-shop-locator.png?url"
 import Batteria from "/img/buy-dc-power-visa.svg?url"
 import Jumbotron from "/img/jumbotron.jpg?url"
+import Card from "./card"
 
 
 const comics = [
@@ -179,14 +180,7 @@ export default function Main() {
             {
                 comics.map(comic => (
                     
-                    <div className="col-2  " key={comic.id}>
-                        <div className="card">
-                            <img className="card-img-top" src={comic.thumb} alt={comic.title} />
-                            <div className="card-body">
-                                <p>{comic.series}</p>
-                            </div>
-                        </div>
-                    </div>
+                  <Card key={comic.id} thumb={comic.thumb} series={comic.series}  />
                     
                 ))
             }
